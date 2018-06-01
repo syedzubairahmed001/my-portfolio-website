@@ -1,0 +1,504 @@
+/*common*/
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 90%;
+    margin: 0 5%;;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+h2{
+    text-transform: capitalize;
+    margin: 20px 0 40px 0;;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: #444;
+}
+h2 span{
+    color: #fff;
+    font-size: 45px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #049372;
+
+}
+/* h2::after{
+    content: ' ';
+    background-color: #26A65B;
+    color: #000;
+    width: 120px;
+    height: 3px;
+    display: block;
+    margin: 15px auto;
+} */
+.line{
+    display: block;
+    width: 2px;
+    height: 100px;
+    background-color: #26A65B;
+    margin: 70px auto;
+}
+/* --------------  header  --------*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right ,rgba(17, 153, 142, 0.794),rgba(56, 239, 126, 0.794)), url(img/bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.my-img{
+    margin-top: 80px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 100%;
+    box-shadow: 2px 2px 30px #000000e0;
+}
+/* main heading */
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: absolute;
+    top: 25%;
+}
+.sec-header-my-projects{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-weight: 300;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    transition: 0.5s;
+}
+.sec-header-my-projects:hover{
+    background-color: #3498DB;
+    border-color: #3498DB;
+    color: #FFF;
+}
+.head-hi{
+    font-size: 70px;
+    font-weight: 400;
+}
+.head-name{
+    color:#222222;
+    background-color: #f7f7f7;
+    font-size: 60px;
+}
+.head-greeting{
+    font-size: 40px;
+}
+/* ---  navigation ---*/
+.header-container{
+    position: relative;
+}
+nav{
+    display: block;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-left: 5%;
+}
+.nav-li a{
+    text-decoration: none;
+    color: #686868;
+    padding: 20px ;
+    display: inline-block;
+    text-transform: capitalize;
+    border-bottom: 4px solid #f7f7f7;
+    transition: border-bottom 0.4s;
+}
+.nav-li{
+    list-style: none;
+    line-break: none;
+    display: inline-block;
+}
+.nav-li a:hover{
+    border-bottom: 4px solid #3498DB;
+}
+/* -------------------- end of header----------------------*/
+
+/*............contact me..........*/
+.section-contact-me{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(19, 19, 19, 0.8);
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.sec-contact-back-btn{
+    font-size: 35px;
+    color: #eee;
+    padding: 10px;
+    background-color: #22A7F0;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+    transition:background-color 0.5s;
+}
+.sec-contact-back-btn:hover{
+    background-color: #2084b9;
+}
+.sec-contact-row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sec-contact-p{
+    text-align: center;
+    color: #eee;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.sec-contact-icon{
+    color: #eee;
+    padding: 20px;
+    background-color: #22A7F0;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+/*---------end of contact me------------*/
+
+/*......about me section  ...........*/
+.sec-about-me-img{
+    width: 70%;
+    margin: 0 15%;
+}
+.sec-about-me-para{
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 40px;
+}
+/*......end of about me section..........*/
+
+
+/*--------------------------------------------------*/
+/* ---------- my skills section------*/
+.sec-skills-icon{
+    font-size: 60px;
+    padding: 40px;
+    margin: 0 30%;
+    background-color: rgb(177, 48, 48);
+    border-radius: 100%;
+    color: #fff;
+}
+.sec-skills-head{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+.skills-col{
+    margin:20px 0;
+}
+.sec-skills-body{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 30px;
+}
+.i-code{
+    background-color: #D91E18;
+}
+.i-desktop{
+    background-color: #22A7F0;
+}
+.i-xyz{
+    background-color: #F7CA18;
+}
+/*......end of my skills section..........*/
+
+/*--------------------------------------------------*/
+
+/* ---------- languages section------*/
+.section-lang{
+    width: 100%;
+    height: auto;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/sec-lang-bg.jpg); */
+    background-color: #3498DB;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 2px 2px 100px #555;
+}
+.sec-lang-icon{
+    font-size: 70px;
+    padding:30px;
+    border-radius: 100%;
+    margin: 0 125px;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
+    color: #fafafa;
+    border: 3px solid #fafafa;
+}
+.sec-lang-icon:hover{
+    background-color: #fafafa;
+    color:#555;;
+}
+/* .i-lang-1:hover ::after{
+    content: 'html';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    padding:5px 0;
+    background-color: #00F260;
+    position: relative;
+    top: -100px;
+    right: -100px;
+    /* box-shadow: 2px 2px 100% #222; */
+    /*border-radius: 3px;
+ } */
+.sec-lang-col{
+    margin: 30px 0;
+}
+/*------------------end of languages section-----------*/
+/*--------------------------------------------------*/
+
+/*---------------education section-----------*/
+.section-edu{
+    width: 100%;
+    background-attachment: fixed;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/bg-img.jpg);
+    background-position: left;
+    padding: 40px 0;
+}
+.sec-edu-school-btn,
+.sec-edu-college-btn{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    font-size: 30px;
+    font-weight: 300;
+    border: 2px solid #26A65B;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #26A65B;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.5s background-color, color 0.5s, border 0.5s;
+}
+.sec-edu-col-sch{
+    display: none;
+}
+.sec-edu-col-clg{
+    display: none;
+}
+.sec-edu-school-btn:hover,
+.sec-edu-college-btn:hover{
+    background-color: #eee;
+    color: #26A65B;
+    border-color: #fff;
+}
+.sec-edu-name{
+    text-align: center;
+    font-size: 70px;
+    border-radius: 100%;
+    padding: 50px 0;
+    font-weight: 300;
+    color: #fff;
+}
+/*jquery edited class*/
+.sec-edu-btn{
+    border: 2px solid #fff;
+    color: #26A65B;
+    background-color: #eee;
+}
+.sec-edu-para{
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+/*------------------end of education section-----------*/
+/*--------------------------------------------------*/
+
+/* ---------- social section ------*/
+.sec-social-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    width: 300px;
+    padding: 10px 20px;
+    border: 2px solid #26A65B;
+    color: #26A65B;
+    border-radius: 4px;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+}
+.sec-social-btn:hover{
+    color: #fff;
+    background-color: #26A65B;
+}
+.sec-social-icon{
+    font-size: 50px;
+    padding: 20px;
+    color: #26A65B;
+    border-radius: 100%;
+    background-color: #000;
+    margin: 0 130px;
+    margin-top: 30px;
+    transition: border 0.5s, color 0.5s, background-color 0.5s, font-size 0.5s;
+    border: 2px solid #fff;
+}
+.i-soc-git{
+    color: #fff;
+    background-color: #555;
+}
+.i-soc-git:hover{
+    color:#555;
+    border:2px solid #555;
+    background-color: transparent;
+    font-size: 54px;
+
+}
+.i-soc-twit{
+    color: #fff;
+    background-color: #22A7F0;
+}
+.i-soc-twit:hover{
+    color: #22A7F0;
+    background-color: #fff;
+    border:2px solid #22A7F0;
+    font-size: 54px;
+
+}
+.i-soc-insta{
+    color: #fff;
+    background-color: #D62B7F;
+}
+.i-soc-insta:hover{
+    color: #D62B7F;
+    background-color: #fff;
+    border:2px solid #D62B7F;
+    font-size: 54px;
+
+}
+/* .sec-social-row{
+    display: none;
+} */
+/*------------------end of social section-----------*/
+/*--------------------------------------------------*/
+
+/*----------section projects--------*/
+.sec-projects-para{
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #444;
+}
+.sec-projects-img{
+    width: 100%;
+    height: auto;
+}
+.sec-projects-btn{
+    color: #26A65B;
+    border: 1px solid #26A65B;
+    padding: 10px 25px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s, background-color 0.5s;
+}
+.sec-projects-btn:hover{
+    color: #fff;
+    background-color: #26A65B;
+}
+/*------------------end of projects section-----------*/
+/*--------------------------------------------------*/
+
+/*-------footer----------------*/
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #555;
+}
+footer p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #ccc;
+}
+/*------------------end of footer-----------*/
+/*--------------------------------------------------*/
+
+
+
+/*****************************************************/
+/*-----------------media queries--------*/
+ @media only screen and (max-width:480px){
+     /*---header--*/
+     .my-img{
+        margin-top: 10px;
+     }
+    .head-hi{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .head-name{
+        color:#222222;
+        background-color: #f7f7f7;
+        font-size: 40px;
+    }
+    .head-greeting{
+        font-size: 30px;
+    }
+    h1{
+        top: 90%;
+    }
+    .sec-header-my-projects{
+        display: none;
+    }
+    /*----section languages----*/
+    .sec-lang-icon{
+        font-size: 50px;
+        padding:20px;
+        border-radius: 100%;
+        margin: 0 120px;
+    }
+    .sec-lang-col{
+        margin: 15px 0;
+    }
+    .sec-contact-p{
+        font-size: 20px;
+    }
+    .sec-contact-icon{
+        padding: 10px;
+        margin-right: 5px;
+    }
+}

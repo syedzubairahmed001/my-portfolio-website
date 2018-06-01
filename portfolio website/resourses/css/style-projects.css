@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 90%;
+    margin: 0 5%;;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.back-btn{
+    font-size: 40px;
+    background-color: #fff;
+    color: #555;
+    padding: 7px;
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    border-radius: 100%;
+    box-shadow: 0.3px 2px 10px #000;
+    transition: background-color 0.5s;
+}
+.back-btn:hover{
+    background-color: #ccc;
+}
+.ups-bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.ups-description{
+    width: 100%;
+    padding: 40px 100px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 1px 0 60px #555;
+    display: block;
+}
+.ups-description p{
+    text-align: left;
+    font-size: 30px;
+    padding: 40px 50px;
+    font-weight: 300;
+}
+.ups-description a{
+    text-align: center;
+    display: inline-block;
+    margin-left: 35px;
+    color: #fff;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #3498DB;
+    border: 1px solid #3498DB;
+    transition: color 0.5s, background-color 0.5s;
+}
+.ups-description a:hover{
+    background-color: #3498DB;
+    color: #fff;
+
+}
+@media only screen and (max-width:480px){
+    .ups-description{
+        padding: 40px 10px;
+    }
+}
