@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,65 +14,84 @@ body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
+/*<<<---common to all projects--->>>*/
 .back-btn{
-    font-size: 40px;
-    background-color: #fff;
-    color: #555;
-    padding: 7px;
+    color: #fff;
     position: fixed;
-    top: 10px;
-    left: 15px;
-    border-radius: 100%;
-    box-shadow: 0.3px 2px 10px #000;
+    bottom: 10px;
+    right: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    width: 120px;
+    background-color: #313131;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 20px;
     transition: background-color 0.5s;
 }
 .back-btn:hover{
-    background-color: #ccc;
+    background-color: #525252;
 }
-.ups-bg{
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+.section-main{
     height: 100vh;
-}
-.ups-description{
     width: 100%;
-    padding: 40px 100px;
-    height: auto;
-    background-color: #fff;
-    box-shadow: 1px 0 60px #555;
+}
+/*heading*/
+h2{
+    margin: 40px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #f8f8f8;
+}
+h2 span{
+    color: #313131;
     display: block;
+    font-weight: bolder;
+    margin: 20px 0;
+    padding: 20px 10px;
+    background-color: #f8f8f8;
+    border-radius: 100px;
+    width: 90px;
 }
-.ups-description p{
-    text-align: left;
-    font-size: 30px;
-    padding: 40px 50px;
+.sec-main-para{
+    color: #f8f8f8;
+    font-size: 25px;
     font-weight: 300;
+    margin: 30px 0;
 }
-.ups-description a{
-    text-align: center;
+.sec-main-visit-btn a{
     display: inline-block;
-    margin-left: 35px;
-    color: #fff;
-    font-size: 20px;
-    width: 200px;
-    padding: 10px 20px;
-    font-weight: 300;
     text-decoration: none;
-    color: #3498DB;
-    border: 1px solid #3498DB;
-    transition: color 0.5s, background-color 0.5s;
+    font-size: 20px;
+    font-weight: 300;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    transition: background-color 0.5s;
 }
-.ups-description a:hover{
-    background-color: #3498DB;
-    color: #fff;
-
+/*______________project-001___________*/
+.project-001{
+    background-color: #00a8ff;
 }
-@media only screen and (max-width:480px){
-    .ups-description{
-        padding: 40px 10px;
-    }
+.btn-001 a{
+    color: #f8f8f8;
+    background-color: #F44336;
+}
+.btn-001 a:hover{
+    background-color: #026799;
+}
+/*______________project-002___________*/
+.project-002{
+    background-color: #F44336;
+}
+.btn-002 a{
+    color: #f8f8f8;
+    background-color: #00a8ff;
+}
+.btn-002 a:hover{
+    background-color: #b93128;
 }
