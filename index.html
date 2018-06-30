@@ -7,6 +7,7 @@
     <title>ZUBAIR | PORTFOLIO</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
@@ -49,7 +50,7 @@
     <!--........  end of header .....-->
     <!--.................................................................-->
     <!--....... page contact me ........-->
-    <section class="section-contact-me">
+    <section class="section-contact-me" style="z-index: 9999;">
         <ion-icon name="arrow-back" class="sec-contact-back-btn"></ion-icon>
         <div class="row sec-contact-row">
             <p class="sec-contact-p">
@@ -69,13 +70,13 @@
 
     <!--........  section about me  .............-->
         <section class="section-about-me">
-            <h2><span>01</span> - little bit about me!</h2>
+            <h2  data-aos="fade-right"><span>01</span> - little bit about me!</h2>
             <div class="row">
                 <div class="col span-1-of-2">
-                    <img class="sec-about-me-img" src="resourses/img/mac.gif" alt="laptop-image">
+                    <img class="sec-about-me-img" src="resourses/img/mac.gif" alt="laptop-image" data-aos="flip-left">
                 </div>
                 <div class="col span-1-of-2">
-                    <p class="sec-about-me-para">Hi, Iam SYED ZUBAIR AHMED and Iam 17, Iam a Web Developer.
+                    <p class="sec-about-me-para" data-aos="fade-left">Hi, Iam SYED ZUBAIR AHMED and Iam 17, Iam a Web Developer.
                     I have learned web development from online platforms like Udemy, Coursera, Youtube, Khan Academy,
                     you get the idea, and I developed this website from scratch,
                     currently Iam pursuing Diploma In Computer Engineering,
@@ -90,34 +91,34 @@
 
     <!--........  skills section  .........-->
         <section class="section-skills" id="skills-section">
-            <h2><span>02</span> - what can i do?</h2>
+            <h2 data-aos="fade-left"><span>02</span> - what can i do?</h2>
             <div class="row">
                 <div class="col span-1-of-3 skills-col">
-                    <ion-icon name="ios-code" class="sec-skills-icon i-code"></ion-icon>
-                    <p class="sec-skills-head">
+                    <ion-icon name="ios-code" class="sec-skills-icon i-code" data-aos="zoom-out"></ion-icon>
+                    <p class="sec-skills-head"  data-aos="fade-up">
                         i code!
                     </p>
-                    <p class="sec-skills-body">
+                    <p class="sec-skills-body"  data-aos="fade-up">
                         no wordpress, no wix, i code in html, css, jquery, javascript, sass
                         and learning other new languages like php, nodejs, sql and python too.
                     </p>
                 </div>
                 <div class="col span-1-of-3 skills-col">
-                    <ion-icon name="ios-phone-portrait" class="sec-skills-icon i-desktop"></ion-icon>
-                    <p class="sec-skills-head">
+                    <ion-icon name="ios-phone-portrait" class="sec-skills-icon i-desktop" data-aos="zoom-out"></ion-icon>
+                    <p class="sec-skills-head"  data-aos="fade-up">
                         responsive layout
                     </p>
-                    <p class="sec-skills-body">
+                    <p class="sec-skills-body"  data-aos="fade-up">
                         no matter whether its a phone, a tablet, or a desktop your website will just
                         look as pretty as it should. because i create responsive websites.
                     </p>
                 </div>
                 <div class="col span-1-of-3 skills-col">
-                    <ion-icon name="ios-color-wand" class="sec-skills-icon i-xyz"></ion-icon>
-                    <p class="sec-skills-head">
+                    <ion-icon name="ios-color-wand" class="sec-skills-icon i-xyz" data-aos="zoom-out"></ion-icon>
+                    <p class="sec-skills-head"  data-aos="fade-up">
                         magic of colors!
                     </p>
-                    <p class="sec-skills-body">
+                    <p class="sec-skills-body"  data-aos="fade-up">
                         the more minimal is the website, the more attraction it gives. choosing the right combination of 
                         colors is my number 1 priority, well just have a look at this website, pretty good right?
                     </p>
@@ -130,28 +131,28 @@
     <div class="line"></div>
 
     <!--.......section languages........-->
-        <h2><span>03 </span> - languages</h2>
+        <h2 data-aos="fade-right"><span>03 </span> - languages</h2>
         <section class="section-lang" >
                 <div class="row sec-lang-row">
                     <div class="col sec-lang-col span-1-of-3">
-                        <ion-icon class="sec-lang-icon i-lang-1" name="logo-html5"></ion-icon>
+                        <ion-icon class="sec-lang-icon i-lang-1" name="logo-html5" data-aos="flip-left"></ion-icon>
                     </div>
                     <div class="col sec-lang-col span-1-of-3">
-                        <ion-icon class="sec-lang-icon i-lang-2" name="logo-javascript"></ion-icon>
+                        <ion-icon class="sec-lang-icon i-lang-2" name="logo-javascript" data-aos="flip-left"></ion-icon>
                     </div>
                     <div class="col sec-lang-col span-1-of-3">
-                        <ion-icon class="sec-lang-icon i-lang-3" name="logo-css3"></ion-icon>
+                        <ion-icon class="sec-lang-icon i-lang-3" name="logo-css3" data-aos="flip-left"></ion-icon>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col sec-lang-col span-1-of-3">
-                        <ion-icon class="sec-lang-icon i-lang-4" name="logo-sass"></ion-icon>
+                        <ion-icon class="sec-lang-icon i-lang-4" name="logo-sass" data-aos="flip-left"></ion-icon>
                     </div>
                     <div class="col sec-lang-col span-1-of-3">
-                        <ion-icon class="sec-lang-icon i-lang-5" name="logo-angular"></ion-icon>
+                        <ion-icon class="sec-lang-icon i-lang-5" name="logo-angular" data-aos="flip-left"></ion-icon>
                     </div>
                     <div class="col sec-lang-col span-1-of-3">
-                        <ion-icon class="sec-lang-icon i-lang-6" name="logo-nodejs"></ion-icon>
+                        <ion-icon class="sec-lang-icon i-lang-6" name="logo-nodejs" data-aos="flip-left"></ion-icon>
                     </div>
                     </div>
         </section>
@@ -161,7 +162,7 @@
     <div class="line"></div>
 
     <!--..........section education...........-->
-        <h2><span>04 </span> - education</h2>
+        <h2 data-aos="fade-left"><span>04 </span> - education</h2>
         <section class="section-edu">
             <div class="row">
                 <div class="col span-1-of-2">
@@ -208,7 +209,7 @@
     <div class="line"></div>
 
     <!--.......... section social .........-->
-    <h2><span>05 </span> - visit my social profiles</h2>
+    <h2 data-aos="fade-right"><span>05 </span> - visit my social profiles</h2>
         <section class="section-social">
             <div class="row">
                 <!-- <p class="sec-social-btn">
@@ -238,19 +239,19 @@
     <div class="line"></div>
 
     <!--.............section projects...............-->
-    <h2><span>06 </span> - what i have build?</h2>
+    <h2 data-aos="fade-up"><span>06 </span> - what i have build?</h2>
         <section class="section-projects">
             <div class="row">
                 <div class="col span-1-of-2">
-                    <p class="sec-projects-para">
+                    <p class="sec-projects-para" data-aos="fade-right">
                         I have completed many projects till now with
-                        the web development knowledge, I have
+                        the web development knowledge I have,
                         you can check them out.
                     </p>
                     <a href="projects.html" class="sec-projects-btn">projects</a>
                 </div>
                 <div class="col span-1-of-2">
-                    <img src="resourses/img/sec-projects-img.jpeg" alt="project mockup" class="sec-projects-img">
+                    <img src="resourses/img/sec-projects-img.jpeg" alt="project mockup" class="sec-projects-img" data-aos="fade-left">
                 </div>
             </div>
         </section>
@@ -265,7 +266,15 @@
         </footer>
     <!--..........end of footer.........-->
     <!--..................................................................-->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="resourses/js/script-index.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    </script>
 </body>
 </html>
